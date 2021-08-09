@@ -1,63 +1,50 @@
 .new{
-    background-image: url(images/images1.png);
-    height: 700px;
-    width: 100%;
-    
-    background-repeat: no-repeat;    
+    background-image: url(images/images1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 800px; 
+    position: relative;
+    display: block;
 }
+ .nav-area li a{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 13px;
+}
+
 .nav-area{
     float: right;
     list-style: none;
-    margin-top: 20px;
-    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 950px;
 }
-.nav-area li{
-    display: inline-block;
-    
-}
-.nav-area li a{
-    color: black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-size: 14px;
-    margin-right: 5px;
-}
+
 
 .welcome_imag{
     margin-left: 650px;
 }
 
-
-.welcome_text{
-    margin-left: 630px;
+.p_row {
+    margin-top: 130px;
 }
+
+.txt {
+    color:rgb(70, 70, 70) ;
+}
+
 .images{
-    margin-left: 40px;
-    
-}
-.images_mixt{
-    margin-left: 1500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -60px;
 }
 
-.wrapper_text{
-margin-left: 650px;
+.wrapper1 {
+    padding-top: 110px;
 }
 
 .wrapper-desciption{
-    margin-left: 850px;
+    padding-top: 150px;
     color: gray;
 }
-.row-option{
-margin-top: auto;
-margin-left: 55px;
-}
-.row-details li{
-    color: gray;
-}
-
-.row-details{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
-      }
